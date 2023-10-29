@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+}
+
+body {
+  background-image: url('Sky.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+
+.App {
+  margin: 150px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+li {
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #89aace;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #242b33;
+}
+
